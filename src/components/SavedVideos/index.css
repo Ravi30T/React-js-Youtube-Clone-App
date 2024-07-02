@@ -1,0 +1,38 @@
+.sidebar-saved-videos-container {
+  display: flex;
+}
+
+.saved-videos-container {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+}
+
+.saved-videos-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+@media (max-width: 767px) {
+  .no-saved-videos-img {
+    width: 250px;
+  }
+
+  .saved-videos-failure-container {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .no-saved-videos-img {
+    width: 300px;
+  }
+
+  .saved-videos-failure-container {
+    margin-top: 30px;
+  }
+}

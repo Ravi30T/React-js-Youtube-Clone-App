@@ -1,0 +1,58 @@
+.trending-videos-sidebar-container {
+  display: flex;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  height: 100vh;
+}
+
+.trending-videos-container {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+}
+
+.trending-videos-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.trending-videos-retry-button {
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  width: 70px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .trending-videos-failure-img {
+    width: 250px;
+  }
+
+  .trending-videos-failure-container {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .trending-videos-failure-img {
+    width: 300px;
+  }
+
+  .trending-videos-failure-container {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,13 @@
+.sidebar-notfound-container {
+  display: flex;
+}
+
+.not-found-img {
+  width: 300px;
+}
+
+@media (max-width: 767px) {
+  .not-found-img {
+    width: 250px;
+  }
+}

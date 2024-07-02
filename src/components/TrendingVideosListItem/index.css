@@ -1,0 +1,72 @@
+.trending-video-list-item {
+  list-style-type: none;
+}
+
+.trending-video-link-item {
+  text-decoration: none;
+}
+
+.xs-video-details-container {
+  display: flex;
+  padding: 0px;
+  margin-left: 5px;
+  margin-top: 0px;
+}
+
+.xs-main-video-details-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+
+.xs-video-channel-name-views-date-container {
+  display: flex;
+  justify-content: center;
+  align-self: start;
+}
+
+.sm-video-details-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.sm-video-views-date-container {
+  display: flex;
+}
+
+@media (max-width: 575px) {
+  .trending-video-channel-profile-img {
+    width: 40px;
+    margin-top: 10px;
+  }
+
+  .trending-video-image {
+    width: 100%;
+  }
+
+  .sm-video-details-container {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .xs-video-details-container {
+    display: none;
+  }
+
+  .trending-video-list-item {
+    display: flex;
+    padding: 15px;
+  }
+
+  .trending-video-link-item {
+    text-decoration: none;
+    display: flex;
+  }
+
+  .trending-video-image {
+    width: 40vw;
+  }
+}

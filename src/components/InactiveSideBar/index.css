@@ -1,0 +1,34 @@
+.link-item {
+  text-decoration: none;
+}
+
+.tabs-container {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.social-media-container {
+  padding-left: 0px;
+  display: flex;
+}
+
+.social-list-item {
+  list-style-type: none;
+  margin-right: 15px;
+}
+
+.sidebar-footer-container {
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+  .social-logo {
+    width: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .social-logo {
+    width: 35px;
+  }
+}

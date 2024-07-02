@@ -1,0 +1,49 @@
+.gaming-video-list-item {
+  list-style-type: none;
+}
+
+.gaming-video-link-item {
+  text-decoration: none;
+}
+
+.gaming-video-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 575px) {
+  .gaming-video-list-item {
+    width: 42vw;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+  }
+
+  .gaming-video-img {
+    height: 220px;
+  }
+}
+
+@media ((min-width: 576px) and (max-width: 767px)) {
+  .gaming-video-list-item {
+    width: 25%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .gaming-video-img {
+    height: 250px;
+  }
+}
+
+@media (min-width: 768px) {
+  .gaming-video-list-item {
+    width: 25%;
+    margin-right: 16px;
+    margin-bottom: 10px;
+  }
+
+  .gaming-video-img {
+    height: 350px;
+  }
+}
